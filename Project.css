@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.first-section{
+    width: 100%;
+    height: 500px;
+    background-image: url(./easygram/background.jpg);
+    background-size: 60%;
+}
+header{
+    height: 100px;
+    width: 100%;
+    padding: 15px 150px 0px;  
+}
+.logo{
+    float: left;
+    height: 60px;
+    width: 40%;
+}
+nav{
+    float: right;
+    width: 60%;
+    height: 50px;
+}
+li{
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 12px;
+}
+.border{
+    margin-right: 0px;
+}
+.login,.sign{
+    border: 2px solid #fff;
+    margin-right: 0;text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+.login{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.sign{
+    border-left: none;
+    margin-left: -5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.caption{
+    width: 50%;
+    height: 100px;
+    color: #fcfcfc;
+    text-align: center;
+    margin: auto;
+
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+.download{
+    color: #000;
+    background-color: orange;
+    border-color: orange;
+    height: 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 12px;
+}
+
+.middle{
+    width:100%;
+    height:250px;
+    padding:30px 100px;
+}
+.middle .service{
+    width:33%;
+    height:inherit;
+    float:left;
+    display: flex;
+}
+.middle .service .sevice-image{
+    height: 250px;
+    width: 65px;
+}
+.middle .service img{
+    height:60px;
+    width:60px;
+    margin-top: 15px;
+
+}
+.middle .service .text{
+    width:80%;
+    height:inherit;
+    padding-left: 20px;
+}
+
+.completely{
+    width:100%;
+    height:200px;
+    font-size:20px;
+    text-align:center;
+    margin-top: px;
+}
+.completely h2{
+    display: inline-block;
+    margin-bottom: auto;
+}
+.forfree{
+    color: #000;
+    background-color: rgb(255, 171, 14);
+    border-color: rgb(212, 139, 1);
+    height: 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 12px;
+}
+.foot{
+    width: 100%;
+    height: 700px;
+    padding: 40px 100px;
+    background-color: rgb(231, 238, 238);
+    margin-top: 100px;
+    background-size: contain;   
+}
+.foot .footerservices{
+    width: 100%;
+    height: 150px;
+    float: left;
+    display: flex;
+}
+.foot .footerservices .section4{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 20px 70px;
+}
+.footerservices .logo4 img{
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+} 
+.get{
+    color: rgb(247, 85, 85);
+    border-color: rgb(243, 128, 87);
+    padding: 10px 50px;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 13px;
+}
+.footerservices .getty{
+    margin-top: 70px;
+    margin-left: 110px;
+    padding-left: 10px;
+}
+.foot .foot-footerservices{
+    width: 100%;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    padding-right: 20px;
+}
+.foot-footerservices .footersection{
+    padding: 40px 30px 20px 0px;
+    width: 40%;
+    height: 40px;
+}
+.foot-footerservices .logo5{
+    height: auto;
+    width: inherit;
+    padding-right: 30px;  
+}
+.foot-footerservices .section5{
+    font-size: 15px;
+    font-weight: 400;
+}
+.foot-footerservices .footernavigations{
+    float: left;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding-left: 100px;
+    text-align: inherit;
+    margin-top: -40px;
+    margin-left: 50px;
+    
+}
+.footernavigations li{
+    color: rgb(36, 35, 35);
+    float: left;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 13px;
+    font-stretch: expanded;
+    width: 100%;
+    height: 20px;
+    padding-bottom: 30px;
+}
+.footernavigations h5{
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+.footernavigations .theme{
+    margin-right: -200px;
+}
+.footernavigations .support{
+    width: 100%;
+    height: 30px;
+    margin-left: -150px;
+    margin-right: -100px;
+}
+.footernavigations .recommend{
+    width: 100%;
+    height: 30px;
+    margin-left: -200px;
+}
+.foot .toe .first-toe{
+    width: 100%;
+    height: 10px;
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.first-toe h5{
+    font-size: inherit;
+    font-weight: 600;
+}
+.foot .toe .second-toe{
+    width: 50%;
+    height: 5px;
+    margin-left: auto;
+    padding-left: 90px;
+}
+.second-toe li{
+    color: #000;
+    list-style: none;
+    display: inline;
+    font-size: 13px;
+    font-weight: 800
+
+}
